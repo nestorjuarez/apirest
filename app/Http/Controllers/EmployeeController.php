@@ -7,6 +7,11 @@ use Illuminate\Http\Request;
 
 class EmployeeController extends Controller
 {
+
+    public function index()
+    {
+        
+    }
     public function getEmplooyes()
     {
         return Employee::all();
